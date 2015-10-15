@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PlanetDatabase.Infrastructure
 {
-    public class Class1
+    public class Repo
     {
     }
 }
