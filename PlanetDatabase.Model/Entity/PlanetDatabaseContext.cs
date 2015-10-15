@@ -10,7 +10,7 @@ namespace PlanetDatabase.Model
     public class PlanetDatabaseContext : DbContext
     {
         public PlanetDatabaseContext()
-            : base("name=PlanetDatabase") //please verify the connectionstring path on your source
+            : base("PlanetDatabase")  //please verify the connectionstring path on your source
         {
         }
 
