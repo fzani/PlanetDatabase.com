@@ -57,18 +57,35 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="PlanetDatabase.Model.cs" />
+    <Compile Include="PlanetDatabase.Business\PlanetBusinessTest.cs" />
+    <Compile Include="PlanetDatabase.Model\PlanetDatabase.Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PlanetDatabase.Business\PlanetDatabase.Business.csproj">
+      <Project>{493afbf9-cbb5-4a77-9c80-445f9a64d232}</Project>
+      <Name>PlanetDatabase.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlanetDatabase.Infrastructure\PlanetDatabase.Infrastructure.csproj">
+      <Project>{a132f847-1cda-431a-acdf-e87c5ed47fea}</Project>
+      <Name>PlanetDatabase.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PlanetDatabase.Model\PlanetDatabase.Model.csproj">
       <Project>{456ad197-01c5-427d-a854-46fb6d71b4ad}</Project>
       <Name>PlanetDatabase.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PlanetDatabase.Web\PlanetDatabase.Web.csproj">
+      <Project>{880f4837-c456-4690-ab40-22c6982e13b5}</Project>
+      <Name>PlanetDatabase.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PlanetDatabase.Infrastructure\" />
+    <Folder Include="PlanetDatabase.Web\" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
