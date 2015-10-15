@@ -20,7 +20,6 @@ namespace PlanetDatabase.Business
 
         public List<Planet> GetPlanets()
         {
-            //throw new NotImplementedException();
             return _repository.GetAll().ToList();
         }
 
