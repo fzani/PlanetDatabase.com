@@ -12,8 +12,8 @@ namespace PlanetDatabase.Model
         public int Id { get; set; }
         
         public string Name { get; set; }
-        
-        [Description("distance from the Sun")]
+
+        [Description("Distance from the Sun Scale: 1 cm = 10 million km")]
         public double AwayOfStar { get; set; }
 
         public Star System { get; set; }

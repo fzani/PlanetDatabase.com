@@ -13,7 +13,7 @@ namespace PlanetDatabase.UnitTestProject
         {
             using (var db = new PlanetDatabaseContext())
             {
-                var planetList = db.Planets.ToList();
+                var planetList = db.Stars.ToList();
 
                 Assert.IsTrue(planetList != null);
             }
