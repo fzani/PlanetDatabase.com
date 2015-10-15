@@ -9,9 +9,81 @@
     padding-right: 15px;
 }
 
+/*Content main create client*/
+.content-main {}
+.content-main .actions {margin-top:40px;}
+.content-main #content-endereco {margin-top:10px;margin-bottom:20px;}
+.content-main #content-endereco .odd{background: #f4f4f4;}
+
+.border-radius {
+    right:0;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+}
+
+.fixxed {
+    position: fixed;
+    z-index: 100;
+    height: 24px;
+    right: 10px;
+    bottom: -34px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 5px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-transition: bottom 400ms;
+    -moz-transition: bottom 400ms;
+    -o-transition: bottom 400ms;
+    transition: bottom 400ms;
+}
+
+/*Fieldser form*/
+.fieldset-form {margin:20px 0px 20px 0px;}
+/*.fieldset-form legend {color:#6f0707;font-size:x-large;}*/
+.fieldset-form .rows {margin-left:20px;}
+
 /* Set width on the form input elements since they're 100% wide by default */
-input,
+/*input,
 select,
 textarea {
     max-width: 280px;
+}*/
+
+textarea.large {
+    max-width: 580px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
 }

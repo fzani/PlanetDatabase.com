@@ -3,7 +3,7 @@
 
 function PageLoad() {
     getPlanets();
-    alert(123);
+    //alert(123);
 };
 
 var getPlanets = function() {
@@ -19,17 +19,20 @@ var getPlanets = function() {
 };
 
 var drawTable = function(data) {
+    $("#planetsDataTable").append("<div id='load'>loading...</div>");
+
     for (var i = 0; i < data.length; i++) {
         drawRow(data[i]);
     }
-    $("#planetsDataTable").show(10);
+    $("#planetsDataTable").show();
+    $("#load").html("");
 };
 
 var drawRow = function(rowData) {
     var row = $("<tr />");
-    //this will append tr element to table... keep its reference for a while since we will add cels into it
+    //this will append tr element to table...
     $("#planetsDataTable").append(row);
-    row.append($("<td>" + rowData.Id + "</td>"));
+    //row.append($("<td>" + rowData.Id + "</td>"));
     row.append($("<td>" + rowData.Name + "</td>"));
     row.append($("<td>" + rowData.AwayOfStar + "</td>"));
 };

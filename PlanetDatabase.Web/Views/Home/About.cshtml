@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>About</h2>
+
+<h3>Functional Specification</h3>
+    Karl Glennon
+    Last Updated: March 07, 2015
+<h3>Summary</h3>
+    PlanetDatabase.com is an (imaginary) service which provides information about
+    the eight planets of the solar system. For this project it will just display the names
+    of the planets and their distance from the Sun.
+<h3>Non Goals</h3>
+    This version will not support any functionality outside of this spec. No need to
+    show any more planet information other than the list of planets, and their distance
+    from the sun.
+<h3>Homepage</h3>
+    User opens the homepage and is presented with some intro text and the list of
+    planets. The planet list is populated by an API call to retrieve the planet list.
+    Homepage looks like this:
+    PlanetDatabase.com
+    Welcome to PlanetDatabase.com
+    Please see the list of planets in
+    our solar system on the right
+    hand side.
+    Mercury
+    Venus
+    Earth
+    Mars
+    Jupiter
+    Saturn
+    Uranus
+    Neptune
+    The user can click on any of the planet names in order to see their distance from
+    the Sun. e.g. when a user clicks on Mars:
+    PlanetDatabase.com
+    Welcome to PlanetDatabase.com
+    Please see the list of planets in
+    our solar system on the right
+    hand side.
+    Mercury
+    Venus
+    Earth
+    Mars
+    227,900,000 km from Sun
+    Jupiter
+    Saturn
+    Uranus
+    Neptune
+<h4>Technical</h4>
+    There should be two parts to this project:
+    · an API endpoint which will return a JSON response with the planet list
+    · the website which displays the planet information
+    API call should be returned in JSON format. I’ll leave the structure with you.
+<h4>Note</h4>
+    This is just a simple, quick project to give a feel for how you would approach a
+    simple site.
