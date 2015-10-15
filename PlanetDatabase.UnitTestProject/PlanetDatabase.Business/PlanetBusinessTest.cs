@@ -41,7 +41,7 @@ namespace PlanetDatabase.UnitTestProject.PlanetDatabase.Business
         #endregion
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestGetPlanets()
         {
             var planetList = _pb.GetPlanets();
 

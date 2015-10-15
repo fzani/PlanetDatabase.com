@@ -9,6 +9,11 @@ namespace PlanetDatabase.Model
 {
     public class PlanetDatabaseContext : DbContext
     {
+        public PlanetDatabaseContext()
+            : base("name=PlanetDatabase") //please verify the connectionstring path on your source
+        {
+        }
+
         public DbSet<Star> Stars { get; set; }
         public DbSet<Planet> Planets { get; set; }
     }
