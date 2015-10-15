@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace PlanetDatabase
+namespace PlanetDatabase.Web
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

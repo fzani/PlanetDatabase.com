@@ -1,6 +1,6 @@
 using System;
 
-namespace PlanetDatabase.Areas.HelpPage.ModelDescriptions
+namespace PlanetDatabase.Web.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

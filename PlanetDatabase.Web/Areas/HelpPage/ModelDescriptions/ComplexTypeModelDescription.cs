@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace PlanetDatabase.Areas.HelpPage.ModelDescriptions
+namespace PlanetDatabase.Web.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

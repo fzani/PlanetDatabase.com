@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace PlanetDatabase.Controllers
+namespace PlanetDatabase.Web.Controllers
 {
     public class HomeController : Controller
     {

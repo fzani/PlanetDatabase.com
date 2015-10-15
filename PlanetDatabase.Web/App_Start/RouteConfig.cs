@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace PlanetDatabase
+namespace PlanetDatabase.Web
 {
     public class RouteConfig
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using PlanetDatabase.Areas.HelpPage.ModelDescriptions;
-using PlanetDatabase.Areas.HelpPage.Models;
+using PlanetDatabase.Web.Areas.HelpPage.ModelDescriptions;
+using PlanetDatabase.Web.Areas.HelpPage.Models;
 
-namespace PlanetDatabase.Areas.HelpPage.Controllers
+namespace PlanetDatabase.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

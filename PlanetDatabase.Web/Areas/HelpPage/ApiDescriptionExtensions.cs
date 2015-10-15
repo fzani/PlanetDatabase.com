@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace PlanetDatabase.Areas.HelpPage
+namespace PlanetDatabase.Web.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.Model", "Pla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.UnitTestProject", "PlanetDatabase.UnitTestProject\PlanetDatabase.UnitTestProject.csproj", "{15E0CA1F-2285-42BA-838F-7A2256D4E490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.Web", "PlanetDatabase.Web\PlanetDatabase.Web.csproj", "{880F4837-C456-4690-AB40-22C6982E13B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetDatabase.Web", "PlanetDatabase.Web\PlanetDatabase.Web.csproj", "{405B4C8B-CD5A-4645-B7E0-35242054B1CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{15E0CA1F-2285-42BA-838F-7A2256D4E490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15E0CA1F-2285-42BA-838F-7A2256D4E490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15E0CA1F-2285-42BA-838F-7A2256D4E490}.Release|Any CPU.Build.0 = Release|Any CPU
-		{880F4837-C456-4690-AB40-22C6982E13B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{880F4837-C456-4690-AB40-22C6982E13B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{880F4837-C456-4690-AB40-22C6982E13B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{880F4837-C456-4690-AB40-22C6982E13B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405B4C8B-CD5A-4645-B7E0-35242054B1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405B4C8B-CD5A-4645-B7E0-35242054B1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405B4C8B-CD5A-4645-B7E0-35242054B1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405B4C8B-CD5A-4645-B7E0-35242054B1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

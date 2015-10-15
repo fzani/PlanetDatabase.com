@@ -5,9 +5,8 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace PlanetDatabase.Controllers
+namespace PlanetDatabase.Web.Controllers
 {
-    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values

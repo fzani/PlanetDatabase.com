@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using PlanetDatabase.Areas.HelpPage.ModelDescriptions;
-using PlanetDatabase.Areas.HelpPage.Models;
+using PlanetDatabase.Web.Areas.HelpPage.ModelDescriptions;
+using PlanetDatabase.Web.Areas.HelpPage.Models;
 
-namespace PlanetDatabase.Areas.HelpPage
+namespace PlanetDatabase.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

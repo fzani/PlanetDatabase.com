@@ -1,6 +1,6 @@
 using System;
 
-namespace PlanetDatabase.Areas.HelpPage.ModelDescriptions
+namespace PlanetDatabase.Web.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Use this attribute to change the name of the <see cref="ModelDescription"/> generated for a type.

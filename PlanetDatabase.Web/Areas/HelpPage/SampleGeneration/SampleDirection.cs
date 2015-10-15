@@ -1,4 +1,4 @@
-namespace PlanetDatabase.Areas.HelpPage
+namespace PlanetDatabase.Web.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

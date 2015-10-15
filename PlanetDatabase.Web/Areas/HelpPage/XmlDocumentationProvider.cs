@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using PlanetDatabase.Areas.HelpPage.ModelDescriptions;
+using PlanetDatabase.Web.Areas.HelpPage.ModelDescriptions;
 
-namespace PlanetDatabase.Areas.HelpPage
+namespace PlanetDatabase.Web.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

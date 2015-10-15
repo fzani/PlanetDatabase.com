@@ -74,10 +74,6 @@
       <Project>{456ad197-01c5-427d-a854-46fb6d71b4ad}</Project>
       <Name>PlanetDatabase.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PlanetDatabase.Web\PlanetDatabase.Web.csproj">
-      <Project>{880f4837-c456-4690-ab40-22c6982e13b5}</Project>
-      <Name>PlanetDatabase.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
