@@ -21,7 +21,7 @@ namespace PlanetDatabase.Web.Controllers
         // GET api/values
         public IEnumerable<Planet> Get()
         {
-            return _planetBusiness.GetPlanets();
+            return _planetBusiness.GetPlanets().OrderBy(o => o.AwayOfStar);
         }
 
         // GET api/values/5
